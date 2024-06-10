@@ -11,7 +11,7 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'MyCV_RMK';
+  title = 'Mahesh Kumar Renikunta';
 
   Username:string="";
   Email:string="";
@@ -19,6 +19,10 @@ export class AppComponent {
 
   submitsignup(){
 
-    alert("submited successfully"+this.Username+this.Password+this.Email);
+    alert("submited successfully - \nusername: "+this.Username+"\npassword: "+this.Password+"\nEmail: "+this.Email);
+
+
+
+
   }
 }

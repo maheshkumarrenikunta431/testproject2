@@ -1,4 +1,24 @@
-  :host {
+.rcorners1 {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px; 
+  height: 700px;  
+  margin-top: 10%;
+}
+
+.splitleft {
+  left: 0;
+  width: 30%;
+  background-color:  rgb(37, 107, 177);
+}
+
+.splitright {
+  right: 0;
+  width: 70%;
+  background-color: white;
+}
+
+:host {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
     --french-violet: oklch(47.66% 0.246 305.88);
